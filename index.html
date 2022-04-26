@@ -4,30 +4,54 @@
     <meta charset="UTF-8">
     <title>Home | BeskinskayaStyle</title>
     <link rel = "stylesheet" href = "style.css">
-    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
-    <script src="vendor/js/jquery-3.3.1.slim.min.js" defer></script>
-    <script src="vendor/js/popper.min.js" async></script>
-    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
-    <script src="vendor/js/bootstrap.min.js" defer></script>
+    <link rel= "stylesheet" href="slider.css">
+    <script src="slider.js"></script>
 </head>
 <body>
-<div class = "header">
-    <div class = "content">
-        <div class = "trade_mark">
-            <a href = "#" style = "text-decoration: none; color:black;">Beskinskaya Style</a>
-        </div>
-        <div class = "links">
-            <div class = "about_myself">
-                <a href = "#about_myself" style = "text-decoration: none; color:black;">Обо мне</a>
+<div class = "slides__body">
+    <div class = "slides slider__container" style="transform: translate3d(0px, 0%, 0px);">
+        <section id = "block1">
+            <div class = "header">
+                <div class = "content-header">
+                    <div class = "links-header">
+                        <div class="link"><a href = "#">Обо мне</a></div>
+                        <div class="link"><a href = "#">Услуги</a></div>
+                        <div class="link"><a href = "#">Блог</a></div>
+                    </div>
+                    <div class="logo"><a href = "#">Beskinskaya Veta</a></div>
+                    <div class = "burger-header">
+                        <a href="#"><img src="img/menu.png" alt="burger" height = "50" width = "50"></a>
+                    </div>
+                </div>
             </div>
-            <div class = "services">
-                <a href = "#services" style = "text-decoration: none; color:black;">Услуги</a>
-            </div>        
-            <div class = "contacts">
-                <a href = "#contacts" style = "text-decoration: none; color:black;">Контакты</a>
+            <div class = "ph1">
+                <img src = "img/me.jpg" width = "1440" height = "970" alt = "me">
             </div>
-        </div>
-    </div>   
+        </section>
+        <section id = "block2">
+            <div class = "img element-animation">
+                <img src = "img/img.jpg" width = "500" height = "750">
+            </div>
+            <div class = "text-about-me element-animation">
+                <div class = "header-text-about-me">
+                    Обо мне
+                </div>
+                <div class = "text-about element-animation">
+                    С ранних лет я любила одеваться не так, как все. Желание выделяться всегда было чем-то особенным для меня. Сегодня я профессионально занимаюсь разбором гардероба как женщин так и мужчин. Каждый раз, работая со своими клиентами, я получаю большое удовольствие от проделанной нами работы.
+                </div>
+            </div>
+        </section>
+        <section id = "block3">
+            <script>
+                var mySlider = slider('.slides');
+                mySlider.gotoSlide('#target');
+            </script>
+        </section>
+
+
+    </div>
 </div>
+
+<script src="script.js"></script>
 </body>
 </html>
