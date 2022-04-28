@@ -33,6 +33,7 @@ html{
     justify-content: center;
     align-items: center;
     position:fixed;
+    z-index: 1;
 }
 .content-header{
     height:91px;
@@ -42,11 +43,11 @@ html{
     align-items: center;
 }
 .logo a{
-    font-size:38px;
+    font-size:26px;
     font-weight: 600;
     color:#FFFFFF;
     text-decoration: none;
-    margin-right:120px;
+    margin-right:160px;
 }
 .links-header{
     margin:0;
@@ -71,11 +72,25 @@ html{
 .link:hover{
    transform: scale(1.1);
 }
-.ph1{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.your-stylist{
     height:100vh;
+    background:url('img/me.jpg');
+    background-size:cover;
+    width:1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color:#FFFFFF;
+    text-align: center;
+}
+.your-stylist-text{
+    font-size:24px;
+    font-weight:500;
+    margin-bottom:40px;
+}
+.arrow-img{
+    margin-bottom:10px;
 }
 #block2{
     height:100vh;
@@ -100,7 +115,7 @@ html{
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size:38px;
+    font-size:24px;
     font-weight: 800;
     width:229px;
     height:61px;
@@ -114,7 +129,125 @@ html{
     width:454px;
     height:500px;
     line-height:166%;
-    font-size:25px;
+    font-size:22px;
     font-weight: 400;
     color:#333333;
 }
+#block3{
+    height:100vh;
+    width:100%;
+}
+.content-block3{
+    height:100vh;
+    width:1440px;
+    padding-top:80px;
+}
+.header-block3{
+    font-size:22px;
+    font-weight:500;
+    letter-spacing: 2px;
+    text-align: center;
+    color:#333333;
+    margin-bottom:80px;
+}
+.analysis-wardrobe{
+    font-size:20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+    color:#333333;
+}
+.blocks-analysis{
+    width:1440px;
+    height:250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:90px;
+    color:#333333;
+}
+.block-analysis{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width:230px;
+    height:311px;
+    text-align: center;
+}
+.text-analysis{
+    margin-top:15px;
+    font-size:18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.shopping-escort-text{
+    text-align: center;
+}
+.shopping-escort{
+    margin-top:50px;
+    height:312px;
+    width:1440px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#333333;
+}
+#block4{
+    padding-top:43px;
+    height:100vh;
+    width:1440px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.left-side4{
+    width:850px;
+    height:720px;
+    margin:0;
+}
+.header-block4{
+    width:337px;
+    height:37px;
+    font-size:22px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color:#333333;
+    margin:0;
+    margin-left:180px;
+}
+.left-block4{
+    width:551px;
+    height:374px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.margin4{
+    margin-top:28px;
+}
+.text-left-block{
+    margin:0;
+    height:126px;
+    width:546px;
+    border-bottom:solid 1px #333333;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size:18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color:#333333;
+}
+.border-left-block{
+    width:745px;
+}
+.border4{
+    border:none;
+}
+.right-block4{
+    margin:0;
+    margin-top:50px;
+}
+
