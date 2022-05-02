@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', () => {
         observer.observe(elm);
     }
 
-    //Модальное окно
+    
     
     
 

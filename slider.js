@@ -159,7 +159,6 @@ var slider = function (sliderElement) {
   } else {
     window.addEventListener('onload', init(), false);
   }
-
   // expose gotoSlide function
   return {
     gotoSlide: gotoSlide
