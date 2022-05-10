@@ -17,25 +17,13 @@ window.addEventListener('DOMContentLoaded', () => {
         observer.observe(elm);
     }
 
-    
-    
-    
+    const modal = document.querySelector('.modal-window');
+    const openModal = document.querySelector('.burger-header');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    openModal.addEventListener('click',()=>{
+        modal.classList.add('show');
+        modal.classList.remove('hide');
+        document.body.style.overflow = "hidden";
+    });
     
 });
