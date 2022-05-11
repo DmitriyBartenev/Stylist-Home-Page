@@ -1,11 +1,45 @@
-@media (max-width:1440px) {
+@media screen and (max-width:1440px) {
     .header{
         width:100%;
     }
     .slider__indicators{
         left:2%;
     }
-    #block2{
-
+    .content-block3{
+        width:100%;
+    }
+    .blocks-analysis{
+        width:100%;
+    }
+    .shopping-escort{
+        width:100%;
+    }
+    .content-block4{
+        width:100%;
+    }
+    .content-block5{
+        width:100%;
+    }
+    .container-prices-blocks{
+        width:100%;
+    }
+    .content-block6{
+        width:100%;
+    }
+    .content-block7{
+        width:100%;
+    }
+}
+@media screen and (max-width:1140px) {
+    .container-blog{
+        width:100%;
+    }
+}
+@media screen and (max-width:535px){
+    .form-container form{
+        width:100%;
+    }
+    .icon-container{
+        width:100%;
     }
 }
