@@ -1,0 +1,8 @@
+@media (max-width:1440px) {
+    .header{
+        width:100%;
+    }
+    .slider__indicators{
+        left:2%;
+    }
+}

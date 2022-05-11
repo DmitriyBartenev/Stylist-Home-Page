@@ -38,7 +38,7 @@ html{
     display:flex;
     justify-content: center;
     align-items: center;
-    position:fixed;
+    position: fixed;
     z-index: 1;
 }
 .content-header{
@@ -80,9 +80,9 @@ html{
 }
 .your-stylist{
     height:100vh;
-    background:url('img/me.jpg');
-    background-size:cover;
     width:1440px;
+    background-image:url('img/me.jpg');
+    background-size:100% 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

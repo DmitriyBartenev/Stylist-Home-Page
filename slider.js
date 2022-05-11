@@ -61,14 +61,14 @@ var slider = function (sliderElement) {
     var touchStopPos = 0;
     var touchMinLength = 90;
     document.addEventListener('touchstart', function (e) {
-      e.preventDefault();
+/*       e.preventDefault(); */
       if (e.type == 'touchstart' || e.type == 'touchmove' || e.type == 'touchend' || e.type == 'touchcancel') {
         var touch = e.touches[0] || e.changedTouches[0];
         touchStartPos = touch.pageY;
       }
     });
     document.addEventListener('touchend', function (e) {
-      e.preventDefault();
+/*       e.preventDefault(); */
       if (e.type == 'touchstart' || e.type == 'touchmove' || e.type == 'touchend' || e.type == 'touchcancel') {
         var touch = e.touches[0] || e.changedTouches[0];
         touchStopPos = touch.pageY;
@@ -124,6 +124,13 @@ var slider = function (sliderElement) {
     document.querySelector('a.slider__indicator--active').classList.remove('slider__indicator--active');
     document.querySelector('a[data-slider-target-index="' + currentSlide +'"]').classList.add('slider__indicator--active');
   };
+  
+  const link = document.querySelector('.link');
+  const destination = document.querySelector('#block2');
+
+  link.addEventListener('click', () =>{
+    return changeSlide(1);
+  });
 
   var gotoSlide = function (where) {
     var target = document.querySelector(where).getAttribute('data-slider-index');
@@ -147,4 +154,5 @@ var slider = function (sliderElement) {
   return {
     gotoSlide: gotoSlide
   }
+
 };
