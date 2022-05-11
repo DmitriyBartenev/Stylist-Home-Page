@@ -34,6 +34,9 @@
     .container-blog{
         width:100%;
     }
+    .your-stylist{
+        height:96vh;
+    }
 }
 @media screen and (max-width:535px){
     .form-container form{
