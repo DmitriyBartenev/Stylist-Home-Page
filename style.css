@@ -76,24 +76,25 @@ html{
     transition:.1s;
 }
 .link:hover{
-   transform: scale(1.1);
+   transform: scale(1.05);
 }
 .your-stylist{
     height:100vh;
     width:1440px;
     background-image:url('img/me.jpg');
-    background-size:100% 100%;
+    background-size:cover;
+    background-position-x:75%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
     color:#FFFFFF;
-    text-align: center;
 }
 .your-stylist-text{
+    width:1440px;
     font-size:24px;
     font-weight:500;
     margin-bottom:40px;
+    text-align: center;
 }
 .arrow-img{
     margin-bottom:10px;
@@ -104,7 +105,7 @@ html{
     background-color: #333333ad;
     position:absolute;
     top:0;
-    z-index: 1;
+    z-index: 2;
 }
 .container-modal-block{
     width:400px;

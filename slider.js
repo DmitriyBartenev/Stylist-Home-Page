@@ -125,12 +125,23 @@ var slider = function (sliderElement) {
     document.querySelector('a[data-slider-target-index="' + currentSlide +'"]').classList.add('slider__indicator--active');
   };
   
-  const link = document.querySelector('.link');
-  const destination = document.querySelector('#block2');
+  const link_1 = document.querySelector('.link-1');
 
-  link.addEventListener('click', () =>{
+  const link_2 = document.querySelector('.link-2')
+
+  const link_3 = document.querySelector('.link-3')
+
+  link_1.addEventListener('click', ()=>{
     return changeSlide(1);
-  });
+  })
+  link_2.addEventListener('click', ()=>{
+    return changeSlide(2);
+  })
+  link_3.addEventListener('click', ()=>{
+    return changeSlide(5);
+  })
+  
+  
 
   var gotoSlide = function (where) {
     var target = document.querySelector(where).getAttribute('data-slider-index');
