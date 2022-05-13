@@ -37,8 +37,8 @@ html{
     display:flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    z-index: 1;
+    position:absolute;
+    top:0;
 }
 .content-header{
     height:91px;
@@ -78,11 +78,13 @@ html{
    transform: scale(1.05);
 }
 .your-stylist{
-    height:100vh;
+    height:120px;
     width:100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    position: absolute;
+    bottom:0;
     color:#FFFFFF;
 }
 .your-stylist-text{
@@ -96,7 +98,6 @@ html{
 }
 .modal-window{
     width:100%;
-    height:100vh;
     background-color: #333333ad;
     position:absolute;
     top:0;

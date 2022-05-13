@@ -7,11 +7,29 @@
     }
     #block1{
         width:100%;
-        height: calc(100vh - 60px);
+        height: calc(var(--vh, 1vh) * 100);
+    }
+    #block2{
+        height: calc(var(--vh, 1vh) * 100);   
+    }
+    #block3{
+        height: calc(var(--vh, 1vh) * 100);   
+    }
+    #block4{
+        height: calc(var(--vh, 1vh) * 100); 
+        padding:0; 
+    }
+    #block5{
+        height: calc(var(--vh, 1vh) * 100);   
+    }
+    #block6{
+        height: calc(var(--vh, 1vh) * 100);   
+    }  
+    #block7{
+        height: calc(var(--vh, 1vh) * 100);   
     }
     .content-block2{
         width:100%;
-        height: calc(100vh - 60px);
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
@@ -24,7 +42,7 @@
     }
     .content-block3{
         width:100%;
-        height: calc(100vh - 60px);
+        height: calc(var(--vh, 1vh) * 100);
     }
     .blocks-analysis{
         width:600px;
@@ -36,12 +54,9 @@
         width:500px;
         flex-wrap: wrap;
     }
-    #block4{
-        padding:0;
-    }
     .content-block4{
         width:100%;
-        height: calc(100vh - 60px);
+        height: calc(var(--vh, 1vh) * 100);
         flex-direction: column;
         align-items: center;
         flex-direction: space-between;
@@ -63,7 +78,7 @@
     }
     .content-block5{
         width:100%;
-        height: calc(100vh - 60px);
+        height: calc(var(--vh, 1vh) * 100);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -89,7 +104,7 @@
     }
     .content-block6{
         width:100%;
-        height: calc(100vh - 60px);
+        height: calc(var(--vh, 1vh) * 100);
     }
     .container-blog{
         flex-direction: column;
