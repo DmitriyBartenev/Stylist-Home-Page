@@ -5,6 +5,9 @@
     .slider__indicators{
         left:2%;
     }
+    .content-block1{
+        width:100%;
+    }
     .content-block2{
         width:100%;
         flex-direction: column-reverse;
