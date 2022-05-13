@@ -7,13 +7,14 @@
     }
     .content-block1{
         width:100%;
+        height:100%;
     }
     .content-block2{
         width:100%;
+        height:100%;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        height:100vh;
     }
     .text-about{
         text-align: center;
@@ -23,6 +24,7 @@
     }
     .content-block3{
         width:100%;
+        height:100%;
     }
     .blocks-analysis{
         width:600px;
