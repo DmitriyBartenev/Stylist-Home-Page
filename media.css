@@ -5,13 +5,15 @@
     .slider__indicators{
         left:2%;
     }
-    .content-block1{
+    #block1{
         width:100%;
-        height:100%;
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
     }
     .content-block2{
         width:100%;
-        height:100%;
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
@@ -24,7 +26,8 @@
     }
     .content-block3{
         width:100%;
-        height:100%;
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
     }
     .blocks-analysis{
         width:600px;
@@ -41,7 +44,8 @@
     }
     .content-block4{
         width:100%;
-        height:100vh;
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
         flex-direction: column;
         align-items: center;
         flex-direction: space-between;
@@ -64,6 +68,7 @@
     .content-block5{
         width:100%;
         height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -89,6 +94,8 @@
     }
     .content-block6{
         width:100%;
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
     }
     .container-blog{
         flex-direction: column;
