@@ -7,11 +7,11 @@
     }
     #block1{
         width:100%;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(100vh - 60px);
     }
     .content-block2{
         width:100%;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(100vh - 60px);
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
@@ -24,7 +24,7 @@
     }
     .content-block3{
         width:100%;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(100vh - 60px);
     }
     .blocks-analysis{
         width:600px;
@@ -41,7 +41,7 @@
     }
     .content-block4{
         width:100%;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(100vh - 60px);
         flex-direction: column;
         align-items: center;
         flex-direction: space-between;
@@ -63,7 +63,7 @@
     }
     .content-block5{
         width:100%;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(100vh - 60px);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -89,7 +89,7 @@
     }
     .content-block6{
         width:100%;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(100vh - 60px);
     }
     .container-blog{
         flex-direction: column;
