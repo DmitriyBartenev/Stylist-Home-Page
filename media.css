@@ -1,4 +1,4 @@
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1500px) {
     .header{
         width:100%;
     }
@@ -65,24 +65,15 @@
         width:100%;
     }
 }
+
 @media screen and (max-width:1140px) {
     .container-blog{
         width:100%;
     }
 }
-@media screen and (max-width:535px){
-    .form-container form{
-        width:100%;
-    }
-    .icon-container{
-        width:100%;
-    }
-}
 
-
-@media screen and (max-width:950px) {
+@media screen and (max-width:980px) {
     .content-block2{
-        width:100%;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
@@ -106,13 +97,26 @@
     .content-block4{
         flex-direction: column;
         align-items: center;
-        flex-direction: space-between; 
     }
     .left-block4{
         margin-bottom:50px; 
     }
+    .header-block4{
+        margin:0;
+    }
     .left-side4{
-        height:850px; 
+        text-align: center;
+        height:850px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .text-left-block{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .content-block5{
         display: flex;
@@ -137,23 +141,39 @@
         margin:0;
         text-align: center;
     }
+    .header-block6{
+        padding-top:120px;
+    }
     .container-blog{
-        flex-direction: column;
+        margin-top:150px;
         align-items: center;
-        margin:0;
+        width:800px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
     }
     .blog{
         margin-top:40px;
-        height:700px;
+        height:600px;
     }
     .margin6{
         margin-bottom:0;
     }
     .content-block7{
+        padding:0;
         height:1800px;
         justify-content: center;
     }
     .footer{
         justify-content: flex-end;
+    }
+}
+@media screen and (max-width:535px){
+    .form-container form{
+        width:100%;
+    }
+    .icon-container{
+        width:100%;
     }
 }
