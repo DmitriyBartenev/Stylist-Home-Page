@@ -73,46 +73,108 @@
 }
 
 @media screen and (max-width:980px) {
+    .slider__indicator{
+        width:15px;
+        height:15px;
+    }
+    .header{
+        height:130px;
+    }
+    .links-header{
+        width:300px;
+        padding-left:15px;
+    }
+    .links-header a{
+        font-size:26px;
+    }
+    .logo a{
+        font-size:32px;
+    }
+    .burger-header{
+        padding-right:15px;
+    }
+    .your-stylist-text{
+        font-size:32px;
+    }
+    .arrow-img img{
+        width:70px;
+        height:70px;
+    }
     .content-block2{
+        height:1900px;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
+    .text-about-me{
+        height:900px;
+        width:700px;
+    }
+    .text-about{
+        height:800px;
+    }
     .img{
         margin-top:100px;
     }
+    .header-text-about-me{
+        font-size:32px;
+    }
     .text-about{
         text-align: center;
+        line-height: 45px;
+        font-size:26px;
+        width:600px;
+    }
+    .header-block3{
+        font-size:32px;
+    }
+    .analysis-wardrobe{
+        font-size:32px;
+    }
+    .text-analysis{
+        width:300px;
+        font-size:26px;
+    }
+    .block-analysis{
+        width:300px;
     }
     .blocks-analysis{
-        width:600px;
+        width:800px;
         height:900px;
         flex-wrap: wrap;
     }
     .shopping-escort{
         margin-top:100px;
-        width:500px;
+        width:800px;
         flex-wrap: wrap;
     }
     .content-block4{
         flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
     }
     .left-block4{
         margin-bottom:50px; 
     }
     .header-block4{
-        margin:0;
+        margin-left:0;
+        margin-bottom:40px;
+        font-size:32px;
+    }
+    #block4{
+        padding-top:80px;
     }
     .left-side4{
         text-align: center;
-        height:850px;
+        height:1000px;
+        width:700px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
     .text-left-block{
+        font-size:26px;
         text-align: center;
         display: flex;
         align-items: center;
@@ -122,16 +184,35 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around; 
+    }
+    .header-block5{
+        padding-top:80px;
+        font-size:32px;
     }
     .container-prices-blocks{
-        flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-wrap: wrap;
-        height:1800px;
+        height:1400px;
         background:none;
-        margin:0; 
+        margin-top:200px;
+    }
+    .header-price-block{
+        margin-top:0;
+        margin-bottom:10px;
+        font-size:32px;
+        width:100%;
+        text-align: center;
+    }
+    .price-block{
+        width:360px;
+        height:450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .price{
+        font-size:26px;
     }
     .type-card1{
         margin:0;
@@ -142,12 +223,18 @@
         text-align: center;
     }
     .header-block6{
-        padding-top:120px;
+        padding-top:80px;
+        font-size:32px;
+    }
+    .title-block6{
+        font-size:26px;
+        width:100%;
     }
     .container-blog{
         margin-top:150px;
         align-items: center;
         width:800px;
+        height:1500px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -157,6 +244,14 @@
         margin-top:40px;
         height:600px;
     }
+    .text-blog{
+        font-size:26px;
+    }
+    .button-blog{
+        font-size:26px;
+        width:160px;
+        height:60px;
+    }
     .margin6{
         margin-bottom:0;
     }
@@ -165,8 +260,45 @@
         height:1800px;
         justify-content: center;
     }
+    .form-container form{
+        height:510px;
+        width:800px;
+    }
+    .header-block7{
+        font-size:32px;
+    }
+    .title-block7{
+        font-size:30px;
+    }
+    .input-7{
+        width:400px;
+        height:90px;
+        font-size:26px;
+    }
+    .text-area-7{
+        width:400px;
+        height:140px;
+        font-size:26px;
+    }
+    .post-button{
+        width:350px;
+        height:90px;
+        font-size:26px;
+    }
+    .policy-text{
+        width:100%;
+        font-size:18px;
+    }
     .footer{
-        justify-content: flex-end;
+        height:80px;
+        text-align: right;
+        bottom:-5px;
+    }
+    .footer-text{
+        height: 100%;
+        font-size:18px;
+        display: flex;
+        align-items: center;
     }
 }
 @media screen and (max-width:535px){
