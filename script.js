@@ -19,6 +19,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const modal = document.querySelector('.modal-window');
     const openModal = document.querySelector('.burger-header');
+    const closeModal = document.querySelector('.modal-close');
+
+    closeModal.addEventListener('click', () =>{
+        modal.classList.add('hide');
+        modal.classList.remove('show');
+    });
 
     openModal.addEventListener('click',()=>{
         modal.classList.add('show');
@@ -30,8 +36,9 @@ window.addEventListener('DOMContentLoaded', () => {
     document.documentElement.style.setProperty('--vh', `${vh}px`);
 
     window.addEventListener('resize', () => {
-        // We execute the same script as before
         let vh = window.innerHeight * 0.01;
         document.documentElement.style.setProperty('--vh', `${vh}px`);
       });
+
+    
 });

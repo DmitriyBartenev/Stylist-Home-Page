@@ -64,6 +64,7 @@ html{
 }
 .burger-header{
     margin:0;
+    cursor: pointer;
 }
 .link a{
     color:#FFFFFF;
@@ -72,10 +73,13 @@ html{
 .link{
     margin:0;
     font-size:18px;
-    transition:.1s;
 }
-.link:hover{
-   transform: scale(1.05);
+.link a{
+    transition:.2s;
+}
+.link a:hover{
+    transition:.2s;
+    color:#ffffff7e;
 }
 .your-stylist{
     height:120px;
@@ -98,6 +102,7 @@ html{
 }
 .modal-window{
     width:100%;
+    height:100vh;
     background-color: #333333ad;
     position:absolute;
     top:0;
@@ -105,10 +110,45 @@ html{
 }
 .container-modal-block{
     width:400px;
-    height:600px;
-    background-color: #FFFFFF;
+    height:500px;
+    background-color: #dbdbdb;
     position: relative;
     top:20%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 5px 18px 12px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 0px 5px 18px 12px rgba(0, 0, 0, 0.17);
+    box-shadow: 0px 5px 18px 12px rgba(0, 0, 0, 0.17);
+}
+.container-media{
+    width:100%;
+    margin-top:120px;
+    display: flex;
+}
+.text-modal{
+    color:#333333;
+    font-size:22px;
+    font-weight:400;
+    text-align: center;
+    margin-top:80px;
+}
+.modal-close{
+    position: absolute;
+    right:10px;
+    top:5px;
+    cursor: pointer;
+}
+.modal-close:hover{
+    animation: spin 2s;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 #block2{
     height:100vh;
